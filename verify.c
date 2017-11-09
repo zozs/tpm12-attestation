@@ -15,6 +15,8 @@
 #include <trousers/trousers.h>
 #include <tss/tss_error.h>
 
+#include "blobfuncs.h"
+
 #define PCR_MASK_SIZE (3) // Assume 8^3 = 24 PCRs in TPM 1.2
 #define PCR_DIGEST_SIZE (20) // SHA-1
 

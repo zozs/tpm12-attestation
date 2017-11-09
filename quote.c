@@ -13,6 +13,8 @@
 #include <trousers/trousers.h>
 #include <tss/tss_error.h>
 
+#include "blobfuncs.h"
+
 #define DEBUG 1
 // Macro for debug messages
 #define DBG(message, tResult) { if(DEBUG) printf("(Line%d, %s) %s returned 0x%08x.%s.\n",   \

@@ -1,5 +1,6 @@
 #include "blobfuncs.h"
 
+#include <stdlib.h>
 #include <stdio.h>
 
 void print_blob(const char *what, BYTE *blob, long blob_len)
